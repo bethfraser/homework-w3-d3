@@ -1,0 +1,9 @@
+<h2>To Do App</h2>
+
+<% @tasks_all.each do |task| %>
+<h4>Task Name:</h4>
+<p><%= task["name"] %></p>
+<a href="/tasks/<%= task['id']%>">Show Task Details</a> | 
+<a href="/tasks/<%= task['id']%>/edit">Edit Task</a> | 
+<a href="/tasks/<%= task['id']%>/delete">Delete Task</a>
+<% end %>

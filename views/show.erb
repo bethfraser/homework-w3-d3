@@ -1,0 +1,9 @@
+
+<% @task_chosen.each do |task| %>
+<h4>Task Name:</h4>
+<p><%= task["name"] %></p>
+<h4>Details:</h4>
+<p><%= task["details"] %></p>
+<% end %>
+
+<a href="/tasks">Go Back</a>
