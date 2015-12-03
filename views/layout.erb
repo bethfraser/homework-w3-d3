@@ -2,15 +2,18 @@
 <html>
 <head>
   <title>To Do App</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
-
+<header>
 <ul>
 <li><a href="/tasks">View All Tasks</a></li>
 <li><a href="/tasks/new">Add New Task</a></li>
 </ul>
-
+</header>
+<div class="main">
 <%= yield %>
+</div>
 
 </body>
 </html>

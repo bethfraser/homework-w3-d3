@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+/***** HEADER *****/
+
+header {
+  width: 100%;
+  background-color: #9ad3de;
+  padding: 20px 10px;
+}
+
+header ul {
+  margin: 0;
+  padding: 10px 20px;
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 1.3em;
+
+}
+
+header ul li a {
+  text-decoration: none;
+  background-color: #3e88a7;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+header ul li a:hover {
+  background-color: #89bdd3;
+}
+
+/***** MAIN *****/
+
+.main {
+  margin: 10px 30px;
+}
+
+.main a {
+  text-decoration: none;
+  background-color: #c9c9c9;
+  color: #4d4d4d;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.main a:hover {
+  background-color: #9ad3de;
+  box-shadow: 2px 2px 5px grey;
+}
+
+/***** FORMS *****/
+
+form {
+  margin: 10px 0;
+}
+
+form input, form textarea {
+  border: 1px solid grey;
+  margin: 5px 0;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 5px;
+}
+
+form label {
+  margin: 5px 0;
+}
+
+form button {
+  font-size: 14px;
+}
+
+
+
